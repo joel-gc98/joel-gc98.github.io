@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es" data-mode="code">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joel Gutiérrez · Software, datos y diseño</title>
+<meta name="description" content="Junior Software Developer y Data Analytics en formación, con pasado en diseño digital y UX/UI. Madrid.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⌨️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="bar"></div><div id="dot"></div><div id="ring"></div>
+<div id="load"><pre><b>$</b> javac Portfolio.java<br><b>$</b> java Portfolio<br><span id="pc">cargando… 0%</span></pre></div>
+
+<nav><div class="wrap">
+  <a class="logo" href="#top">joel.gc<span style="color:var(--ac)">_</span></a>
+  <div class="links">
+    <a class="h" href="#trayectoria">Trayectoria</a><a class="h" href="#proyectos">Proyectos</a><a class="h" href="#datos">Datos</a><a href="#contacto">Contacto</a>
+    <button id="mode" type="button" aria-label="Cambiar entre modo código y modo diseño"><i></i><span id="ml">modo código</span></button>
+  </div>
+</div></nav>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+  <h1><span>Joel</span><span class="l2">Gutiérrez</span></h1>
+  <div class="grid2">
+    <div>
+      <p class="type">Desarrollo software y analizo datos. <br>Construyo <em id="tw"></em><span class="caret"></span></p>
+      <div class="cta"><a class="btn p" href="#proyectos">Ver proyectos</a><a class="btn" href="#contacto">Contacto</a></div>
+    </div>
+    <pre class="code" aria-label="Resumen en código"><span class="k">const</span> joel = {
+  rol: <span class="s">"Junior Software Developer"</span>,
+  foco: [<span class="s">"Java"</span>, <span class="s">"SQL"</span>, <span class="s">"Data Analytics"</span>],
+  antes: <span class="s">"Diseño digital y UX/UI"</span>,
+  lugar: <span class="s">"Madrid, ES"</span>,
+  abiertoAOfertas: <span class="k">true</span>
+};</pre>
+  </div>
+</div></section>
+
+<section id="trayectoria"><div class="wrap">
+  <h2>git log<br>--trayectoria</h2>
+  <div class="tray">
+    <figure class="ph"><div><img src="assets/foto.png" alt="Retrato de Joel Gutiérrez" width="536" height="522"></div>
+      <p class="mut">Del diseño de producto digital al desarrollo y los datos. Me quedo con lo que sé de usuarios y lo uso para programar mejor.</p></figure>
+    <ol class="log" reversed>
+      <li><div class="meta mono"><span class="head">HEAD → ahora</span><span class="mut">aprendiendo</span></div>
+        <h3>Power BI, Python para datos, Azure Data Fundamentals y Machine Learning</h3></li>
+      <li><div class="meta mono"><span class="hash">e84c1a0</span><span class="mut">sep 2025 – jun 2027</span></div>
+        <h3>Máster en Data Analytics</h3><p class="mut">Prometeo by ThePower</p></li>
+      <li><div class="meta mono"><span class="hash">d09b3f6</span><span class="mut">sep 2025 – jun 2027</span></div>
+        <h3>FP Superior en Desarrollo de Aplicaciones Multiplataforma</h3><p class="mut">Java, SQL, JavaScript, HTML y CSS. El salto del diseño al código. Prometeo by ThePower.</p></li>
+      <li><div class="meta mono"><span class="hash">c52e8a7</span><span class="mut">ene 2024 – ene 2025</span></div>
+        <h3>Diseñador gráfico y motion</h3><p class="mut">Entrena Virtual, Vikika Team y Grow Nutrition. Campañas para plataformas con más de 1M de usuarios y anuncios en Meta Ads con el mejor ROAS.</p></li>
+      <li><div class="meta mono"><span class="hash">b71d0e4</span><span class="mut">jun 2023 – ene 2024</span></div>
+        <h3>Diseñador gráfico trainee</h3><p class="mut">Entrena Virtual. Interfaces y materiales para app y web.</p></li>
+      <li><div class="meta mono"><span class="hash">a3f9c21</span><span class="mut">2022 – 2023</span></div>
+        <h3>Máster en Diseño Gráfico y UX/UI</h3><p class="mut">CEI Escuela de Diseño.</p></li>
+    </ol>
+  </div>
+</div></section>
+
+<section id="proyectos"><div class="wrap">
+  <h2>Proyectos</h2>
+  <div class="pg">
+    <article class="card flat hotel">
+      <div class="shot">
+        <img id="shot" src="assets/hotelapp-ocupada.png" alt="HotelApp: la búsqueda de la habitación 101 indica que está ocupada" width="602" height="467">
+        <div class="tabs" role="group" aria-label="Capturas de HotelApp">
+          <button type="button" aria-pressed="true" data-src="assets/hotelapp-ocupada.png" data-alt="HotelApp: la búsqueda de la habitación 101 indica que está ocupada">Habitación ocupada</button>
+          <button type="button" aria-pressed="false" data-src="assets/hotelapp-no-existe.png" data-alt="HotelApp: la búsqueda de la habitación 206 indica que no existe">No existe</button>
+          <button type="button" aria-pressed="false" data-src="assets/hotelapp-validacion.png" data-alt="HotelApp: el texto ABC no es un número válido y se muestra un error">Validación</button>
+        </div>
+      </div>
+      <div class="info">
+        <span class="head st">en desarrollo · rediseño de accesibilidad</span>
+        <h3>hotelApp</h3>
+        <p>Interfaz de reservas de hotel con JavaFX y FXML. Lee las habitaciones de un XML, las muestra en una tabla y busca por número: disponible, ocupada o no existe, con validación de lo que se escribe.</p>
+        <p class="mut">Siguiente paso: rediseñar la pantalla para que sea accesible.</p>
+        <ul class="plan">
+          <li>Más contraste en la pantalla, el botón y el resultado</li>
+          <li>Estado de la habitación con color y símbolo, no solo texto</li>
+          <li>Etiquetas claras y mensajes de validación con marcas visuales</li>
+          <li>Navegación por teclado con atajos en JavaFX</li>
+          <li>Wireframe y mockup del antes y el después, aquí mismo</li>
+        </ul>
+        <div class="tags"><span>Java</span><span>JavaFX</span><span>FXML</span><span>XML</span><span>Git</span></div>
+        <a class="btn" href="https://github.com/joel-gc98/hotelApp" target="_blank" rel="noopener">Ver repositorio</a>
+      </div>
+    </article>
+    <a class="card" data-cur="Ver repo" href="https://github.com/supreme-greg/proyecto-intermodular-daniel-joel-german" target="_blank" rel="noopener">
+      <span class="mono mut">Proyecto intermodular · en equipo · 2025</span>
+      <h3>PAW CONNECT</h3>
+      <p>Aplicación de escritorio para gestionar mascotas: registro de hábitos y lugares de interés, con los datos guardados en una base de datos relacional.</p>
+      <div class="tags"><span>Java</span><span>JDBC</span><span>MySQL</span><span>POO + MVC</span><span>Git</span></div>
+    </a>
+    <a class="card thumb" data-cur="Abrir PDF" href="assets/portfolio-diseno-joel-gutierrez.pdf" target="_blank" rel="noopener">
+      <img src="assets/portfolio-cover.jpg" alt="Selección de trabajos de diseño: overlays, app, portadas y anuncios" loading="lazy">
+      <div>
+        <span class="mono mut">Mi etapa anterior · PDF</span>
+        <h3>Portfolio de diseño</h3>
+        <p>App Store, Meta Ads, stream overlays, portadas de disco y podcast, y artes finales para la Feria del Bebé en IFEMA.</p>
+        <div class="tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>After Effects</span><span>UX/UI</span></div>
+      </div>
+    </a>
+  </div>
+</div></section>
+
+<section id="datos"><div class="wrap">
+  <h2>SELECT * FROM stack;</h2>
+  <p class="mono mut q">-- resultado de la consulta</p>
+  <div class="tw"><table>
+    <thead><tr><th>tecnología</th><th>para qué</th><th>estado</th></tr></thead>
+    <tbody>
+      <tr><td>Java</td><td>POO, patrón MVC, JavaFX</td><td>en uso</td></tr>
+      <tr><td>SQL / MySQL</td><td>modelado relacional, consultas, JDBC</td><td>en uso</td></tr>
+      <tr><td>JavaScript, HTML5, CSS3</td><td>web e interfaces</td><td>en uso</td></tr>
+      <tr><td>Git y GitHub</td><td>control de versiones</td><td>en uso</td></tr>
+      <tr><td>Python</td><td>análisis de datos</td><td>aprendiendo</td></tr>
+      <tr><td>Power BI</td><td>análisis y visualización</td><td>aprendiendo</td></tr>
+      <tr><td>Azure Data, ML</td><td>fundamentos</td><td>aprendiendo</td></tr>
+    </tbody>
+  </table></div>
+  <div class="chips"><span>Figma</span><span>Adobe CC</span><span>UX/UI</span><span>Motion graphics</span><span>IntelliJ IDEA</span><span>VS Code</span><span>IA aplicada a productividad</span></div>
+</div></section>
+
+<section id="contacto"><div class="wrap">
+  <h2>¿Hablamos?</h2>
+  <a class="mail" data-cur="Escribir" href="mailto:jgutierrezcorrales98@gmail.com">jgutierrezcorrales98@gmail.com</a>
+  <div class="cl"><a href="tel:+34689309264">+34 689 309 264</a><a href="https://www.linkedin.com/in/joel-gutierrez-corrales/" target="_blank" rel="noopener">LinkedIn</a><span class="mut">Madrid, España</span></div>
+</div></section>
+</main>
+<footer><div class="wrap mono mut">© 2026 Joel Gutiérrez Corrales. Hecho a mano con HTML, CSS y JS.</div></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
