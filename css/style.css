@@ -66,7 +66,7 @@ nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px
 .ph div{position:relative}
 .ph div::before{content:"";position:absolute;inset:14px -14px -14px 14px;border:2px solid var(--ac);border-radius:var(--r);transition:inset .3s}
 .ph:hover div::before{inset:0}
-.ph img{position:relative;width:100%;height:auto;object-fit:contain;display:block;border-radius:var(--r);filter:grayscale(1) contrast(1.1);transition:filter .4s}
+.ph img{position:relative;width:100%;height:auto;display:block;border-radius:var(--r);filter:grayscale(1) contrast(1.1);transition:filter .4s}
 .ph:hover img,[data-mode=design] .ph img{filter:none}
 .ph p{margin-top:28px;font-size:.9rem}
 .log{list-style:none;padding:0;border-left:2px solid var(--line);margin-left:6px}
