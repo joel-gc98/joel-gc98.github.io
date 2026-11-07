@@ -1,8 +1,8 @@
 # 👋 ¡Hola! Bienvenido a mi portfolio
 
-Soy **Joel Gutiérrez**, estudiante de Desarrollo de Aplicaciones Web (DAW).
+Soy **Joel Gutiérrez**, estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM).
 
-Este repositorio contiene mi portfolio personal, donde recopilo algunos de mis proyectos, prácticas y trabajos relacionados con el desarrollo web.
+Este repositorio contiene mi portfolio personal, donde recopilo algunos de mis proyectos, prácticas y trabajos relacionados con el desarrollo y los datos.
 
 Mi objetivo es seguir aprendiendo, mejorar mis habilidades como desarrollador y poner en práctica los conocimientos que voy adquiriendo.
 
